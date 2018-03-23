@@ -1,0 +1,17 @@
+
+.banner{
+	height: 200px;
+}
+
+.banner-small{
+	height: 100px;
+}
+.menu{
+	text-align: center;
+	margin-top: 30px;
+}
+.mostrar-categorias{
+	text-align: center;
+	position: relative;
+	top: -20px;
+}

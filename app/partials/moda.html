@@ -1,0 +1,21 @@
+<div class="container" ng-controller="ModaCtrl as vm">
+		<div class="row">
+			<fieldset>
+				<legend>Moda</legend>
+			</fieldset>
+
+			<div class="row">
+			  <div class="col-sm-6 col-md-4" ng-repeat="newsItem in vm.moda |orderBy: 'fechaPublicacion' ">
+			    <div class="thumbnail">
+			      <img src="{{newsItem.banner}}" class="banner" >
+			      <div class="caption">
+			      	<span class="fecha">{{newsItem.fechaPublicacion | date}}</span>
+			        <h3>{{newsItem.tituloNoticia}}</h3>
+			        <p>{{newsItem.descripcionNoticia.substring(0, 200)+"..."}}</p>
+			        <p><a href="#" class="btn btn-primary" role="button">Leer mas</a> <a href="#" class="btn btn-default" role="button">Editar</a></p>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		</div>
+	</div>
