@@ -1,5 +1,5 @@
 angular.module('newsWiki', ['ngRoute'])
-.config(function($routeProvider){
+.config(function($routeProvider,$locationProvider){
  	$routeProvider.when('/', {
 		controller: 'NewsCtrl',
 		controllerAs: "vm",
@@ -33,5 +33,5 @@ angular.module('newsWiki', ['ngRoute'])
 		redirectTo: '/'
 	});
 
-	
+	$locationProvider.hashPrefix('');
 })
