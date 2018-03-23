@@ -5,32 +5,31 @@ angular.module('newsWiki', ['ngRoute'])
 		controllerAs: "vm",
 		templateUrl: 'app/partials/inicio.html'
 	})
- 
-	.when('/deporte', {
+	$routeProvider.when('/deporte', {
 		controller: 'DeporteCtrl',
 		controllerAs: "vm",
 		templateUrl: 'app/partials/deporte.html'
 	})
  
-	.when('/moda', {
+	$routeProvider.when('/moda', {
 		controller: 'ModaCtrl',
 		controllerAs: "vm",
 		templateUrl: 'app/partials/moda.html'
 	})
  	
- 	.when('/economia', {
+ 	$routeProvider.when('/economia', {
 		controller: 'EconomiaCtrl',
 		controllerAs: "vm",
 		templateUrl: 'app/partials/economia.html'
 	})
 
- 	.when('/politica', {
+ 	$routeProvider.when('/politica', {
 		controller: 'PoliticaCtrl',
 		controllerAs: "vm",
 		templateUrl: 'app/partials/politica.html'
 	})
 
-	.otherwise({
+	$routeProvider.otherwise({
 		redirectTo: '/'
 	});
 
