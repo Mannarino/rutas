@@ -19,22 +19,4 @@
 		</div>
 	</div>
 
-	<div class="row">
-			<fieldset>
-				<legend>Destacado</legend>
-			</fieldset>
-
-			<div class="row">
-			  <div class="col-sm-6 col-md-4" ng-repeat="newsItem in vm.news | filter: {destacado:true} | orderBy: 'fechaPublicacion' ">
-			    <div class="thumbnail">
-			      <img src="{{newsItem.banner}}" class="banner" >
-			      <div class="caption">
-			      	<span class="fecha">{{newsItem.fechaPublicacion | date}}</span>
-			        <h3>{{newsItem.tituloNoticia}}</h3>
-			        <p>{{newsItem.descripcionNoticia.substring(0, 200)+"..."}}</p>
-			        <p><button class="btn btn-primary" role="button">Leer mas</button> <button  class="btn btn-default" role="button">Editar</button></p>
-			      </div>
-			    </div>
-			  </div>
-			</div>
-		</div>
+	
