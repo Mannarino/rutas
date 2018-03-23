@@ -7,7 +7,7 @@
 			<div class="row">
 			  <div class="col-sm-6 col-md-4" ng-repeat="newsItem in vm.economia |orderBy: 'fechaPublicacion' ">
 			    <div class="thumbnail">
-			      <img src="{{newsItem.banner}}" class="banner" >
+			      <img src="{{newsItem.banner}}" height="211" class="banner" >
 			      <div class="caption">
 			      	<span class="fecha">{{newsItem.fechaPublicacion | date}}</span>
 			        <h3>{{newsItem.tituloNoticia}}</h3>
