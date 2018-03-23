@@ -41,7 +41,7 @@
 			</button>
 			<ol class="breadcrumb" ng-show="vm.showCategories">
 			  <li ng-repeat="cate in vm.categories" >
-			  	<a href="/{{cate}}">{{cate}}</a>
+			  	<a href="/{{cate | lowercase }}">{{cate}}</a>
 			  </li>
 			  
 			</ol>

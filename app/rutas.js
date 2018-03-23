@@ -5,22 +5,22 @@ angular.module('newsWiki', ['ngRoute'])
 		templateUrl: 'app/partials/inicio.html'
 	})
  
-	.when('/Deporte', {
+	.when('/deporte', {
 		controller: 'DeporteCtrl',
 		templateUrl: 'app/partials/deporte.html'
 	})
  
-	.when('/Moda', {
+	.when('/moda', {
 		controller: 'ModaCtrl',
 		templateUrl: 'app/partials/moda.html'
 	})
  	
- 	.when('/Economia', {
+ 	.when('/economia', {
 		controller: 'EconomiaCtrl',
 		templateUrl: 'app/partials/economia.html'
 	})
 
- 	.when('/Politica', {
+ 	.when('/politica', {
 		controller: 'PoliticaCtrl',
 		templateUrl: 'app/partials/politica.html'
 	})

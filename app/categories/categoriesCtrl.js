@@ -10,7 +10,7 @@
 			me.toogleCategories=function(){
 				me.showCategories=!me.showCategories;
 			};
-			me.categories= ["Politica","Economia","Deportes","Moda"];
+			me.categories= ["Politica","Economia","Deportes","Moda";
 			
 		})
 }());
