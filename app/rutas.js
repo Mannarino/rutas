@@ -1,5 +1,5 @@
 angular.module('newsWiki', ['ngRoute'])
-.config(function($routeProvider,$locationProvider){
+.config(function($routeProvider){
  	$routeProvider.when('/', {
 		controller: 'NewsCtrl',
 		templateUrl: 'app/partials/inicio.html'
@@ -29,6 +29,5 @@ angular.module('newsWiki', ['ngRoute'])
 		redirectTo: '/'
 	});
 
-	// Este es opcional
-	$locationProvider.html5Mode(true);
+	
 })
