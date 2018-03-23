@@ -40,7 +40,7 @@
 				                "descripcionNoticia": "Loryade laborum magni, officiis ratione reiciendis sunt aque Commodi doloribus error ex fuos est fuga illum iusto ne" +
 				                "velit voluptas voluptates. Dst fuga illum iusto necessita in sed vitae voluptates. Tenetur giat laborum mag At e",
 				                "fechaPublicacion": new Date(2015,7,30),
-				                "banner" : "img/lebron.jpg",
+				                "banner" : "img/lebrom.jpg",
 				                "destacado": false,
 				                "categoria": "Economia",
 				                "tags": ["mestiza", "gamarra"]
