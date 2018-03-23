@@ -34,8 +34,4 @@ angular.module('newsWiki', ['ngRoute'])
 	});
 
 	
-});
-angular.module('newsWiki', ['ngRoute'])
-.config(['$locationProvider', function($locationProvider) {
-  $locationProvider.hashPrefix('');
-}]);
+})
