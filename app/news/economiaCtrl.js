@@ -13,7 +13,7 @@
 				                "bcaecati quia tempora ullam. Commodi doloribus error ex fugiat laborum magni, officiis ratione reiciendis sunt" +
 				                "velit voluptas voluptates. Culpa deleniti dolore, excepturi fugit id in sed vitae voluptates. Tenetur.",
 				                "fechaPublicacion": new Date(),
-				                "banner" : "http://cde.3.elcomercio.pe/ima/0/1/2/3/4/1234815/base_image.jpg",
+				                "banner" : "img/economista-a.jpg",
 				                "destacado": true,
 				                "categoria": "Politica",
 				                "tags": ["peru", "politica", "guerra"]
@@ -27,7 +27,7 @@
 				                "bcaecati quia tempora ullam. Commodi doloribus error ex fugiat laborum magni, officiis ratione reiciendis sunt" +
 				                "velit voluptas voluptates. Dst fuga illum iusto necessita in sed vitae voluptates. Tenetur.",
 				                "fechaPublicacion": new Date(2015,0,1),
-				                "banner" : "http://cde.3.elcomercio.pe/ima/0/1/2/3/5/1235147/base_image.jpg",
+				                "banner" : "img/economista-b.jpg",
 				                "destacado": true,
 				                "categoria": "Politica",
 				                "tags": ["alan garcia", "politica"]
